@@ -1,0 +1,17 @@
+services:
+  api-gateway-js:
+    build: ./api-gateway-js
+    container_name: gateway_js
+    ports:
+      - "3000:3000"
+    depends_on:
+      - api-analyzer-py
+    environment:
+      - NODE_ENV=development
+
+
+  api-analyzer-py:
+    build: ./api-analyzer-py
+    container_name: analyzer_py
+    ports:
+      - "5001:5001"
