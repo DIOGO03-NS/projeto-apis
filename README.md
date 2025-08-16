@@ -15,13 +15,10 @@ A arquitetura é composta por:
 
 O fluxo de dados é simples e desacoplado, seguindo as melhores práticas de microsserviços:
 
-```mermaid
-graph TD
     A[👨‍💻 Usuário] -->|1. Requisição POST com texto| B(API Gateway | Node.js);
     B -->|2. Chamada interna| C(API de Análise | Python);
     C -->|3. Retorna análise JSON| B;
     B -->|4. Retorna resposta final| A;
-```
 
 ## 🛠️ Tecnologias Utilizadas
 
