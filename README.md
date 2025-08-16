@@ -44,7 +44,7 @@ Siga os passos abaixo para executar o projeto localmente:
 
 1.  Clone este repositório:
     ```bash
-    git clone [https://github.com/DIOGO03-NS/projeto-apis.git](https://github.com/DIOGO03-NS/projeto-apis.git)
+    git clone https://github.com/DIOGO03-NS/projeto-apis.git
     ```
 
 2.  Acesse a pasta do projeto:
